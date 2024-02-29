@@ -1,0 +1,33 @@
+---
+import "../styles/globals.css";
+import Navigation from "./Navigation.astro";
+---
+
+<header>
+	<div class="container">
+		<p>
+			Llevamos tus ideas al mundo digital, lo conceptual se vuelve tangible.
+		</p>
+		<Navigation />
+	</div>
+</header>
+
+<style>
+	header {
+		/* flex-configs */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* propertys-configs */
+		padding: 20px;
+		background: var(--black);
+
+		p {
+			/* property-configs */
+			padding: 10px;
+			text-align: center;
+			font-family: "Cinzel";
+		}
+	}
+</style>

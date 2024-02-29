@@ -1,0 +1,72 @@
+---
+import "../styles/globals.css";
+---
+
+<div class="container">
+	<section>
+		<div class="textos">
+			<h2>Servicio de Diseño Web</h2>
+			<h3>Dos maneras de trabajar con nosotros</h3>
+		</div>
+		<div class="card">
+			<h2>Nosotros lo proponemos</h2>
+			<p>
+				Puedes confiar que diseñaremos una muy buena página para ti y solo
+				tendrás de aprobar el diseño propuesto.
+			</p>
+		</div>
+		<div class="card">
+			<h2>Tu propones el diseño</h2>
+			<p>
+				Si estas claro con lo que quieres, esta opción de diseño se basa en tus
+				requerimientos o muestras.
+			</p>
+		</div>
+	</section>
+</div>
+
+<style>
+	section {
+		/* flex-configs */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* property-configs */
+		margin-top: 40px;
+		padding: 20px;
+
+		.textos {
+			/* property-configs */
+			padding-top: 20px;
+			text-align: center;
+			border-top: thin solid var(--softblue);
+
+			h2 {
+				/* property-configs */
+				font-family: "Cinzel";
+			}
+
+			h3 {
+				/* property-configs */
+				font-family: "Cinzel";
+				font-size: 1rem;
+			}
+		}
+
+		.card {
+			/* property-configs */
+			margin-top: 20px;
+			padding: 20px;
+			border-radius: 6px;
+			border: thin solid var(--blue);
+			background: var(--black);
+
+			h2 {
+				color: var(--softblue);
+				font-family: "Cinzel";
+				font-size: 1.2rem;
+			}
+		}
+	}
+</style>

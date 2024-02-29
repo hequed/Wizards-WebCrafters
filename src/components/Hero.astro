@@ -1,0 +1,73 @@
+---
+import "../styles/globals.css";
+---
+
+<div class="container">
+	<section>
+		<!-- <img src="./logo.png" alt="logo" /> -->
+		<div class="textos">
+			<h1>Wizards WebCrafters</h1>
+			<h2>Magos Digitales, Productos Digitales</h2>
+		</div>
+		<button>
+			<a href="">CONOCENOS</a>
+		</button>
+	</section>
+</div>
+
+<style>
+	section {
+		/* flex-configs */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* property-configs */
+		padding: 20px;
+		margin-top: 20px;
+
+		img {
+			/* property-configs */
+			width: 300px;
+			height: 340px;
+		}
+
+		.textos {
+			/* flex-configs */
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			h1 {
+				/* property-configs */
+				margin-top: 15px;
+				font-family: "Cinzel";
+			}
+
+			h2 {
+				/* property-configs */
+				font-family: "Cinzel";
+				text-wrap: pretty;
+				text-align: center;
+				font-size: 1rem;
+			}
+		}
+
+		button {
+			/* property-configs */
+			margin-top: 12px;
+			padding: 10px;
+			border-radius: 6px;
+			width: 280px;
+
+			a {
+				/* property-configs */
+				font-family: "Cinzel";
+				font-weight: 600;
+				font-size: 1.2rem;
+				color: var(--black);
+			}
+		}
+	}
+</style>
